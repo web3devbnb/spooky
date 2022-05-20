@@ -1,4 +1,7 @@
 .roadmap {
   height: 684px;
-  border: 1px solid black;
+  overflow: hidden;
+  background-image: url(../../images/roadmap_cover.svg);
+  background-position: 50% 50%;
+  background-color: rgb(18, 10, 34);
 }

@@ -1,4 +1,7 @@
 .partner {
   height: 748px;
-  border: 1px solid black;
+  overflow: hidden;
+  background-image: url(../../images/partner_cover.svg);
+  background-position: 50% 50%;
+  background-color: rgb(18, 10, 34);
 }

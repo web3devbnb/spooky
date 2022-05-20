@@ -1,4 +1,48 @@
 .footer {
   height: 141px;
   border: 1px solid black;
+  background-color: black;
+  .container {
+    max-width: 1440px;
+    margin: auto;
+    height: 100%;
+    padding: 22px 120px 24px;
+  }
+}
+
+.linkList {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  .footerLogo {
+    display: flex;
+    align-items: baseline;
+    span {
+      color: white;
+      font-size: 20px;
+      width: 85px;
+      height: 16px;
+      margin-left: 7px;
+      cursor: default;
+    }
+  }
+  .communityLinks {
+    img {
+      opacity: 0.8;
+      margin-left: 24px;
+      &:hover {
+        opacity: 1;
+      }
+    }
+  }
+}
+
+.copyRight {
+  margin-top: 40px;
+  font-size: 12px;
+  font-family: Poppins-Regular, Poppins;
+  font-weight: 400;
+  color: #ffffff;
+  line-height: 20px;
+  opacity: 0.4;
 }
