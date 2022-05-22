@@ -1,4 +1,72 @@
 .lender {
   height: 958px;
-  border: 1px solid black;
+  overflow: hidden;
+  background: url(../../images/lender_cover.png) no-repeat;
+  background-size: cover;
+
+  display: flex;
+  justify-content: center;
+
+  img {
+    width: 700px;
+    height: 700px;
+    margin-top: 100px;
+  }
+}
+
+.leftContent {
+  width: 580px;
+  text-align: left;
+  margin-top: 100px;
+
+  h2 {
+    font-size: 40px;
+    font-family: MonumentExtended-Black, MonumentExtended;
+    font-weight: 900;
+    color: #ffffff;
+    line-height: 48px;
+    margin: auto;
+    span {
+      color: #b721ff;
+    }
+    margin-bottom: 12px;
+  }
+
+  p {
+    font-size: 20px;
+    font-family: Poppins-Regular, Poppins;
+    font-weight: 400;
+    color: #ffffff;
+    line-height: 28px;
+    opacity: 0.5;
+    margin-bottom: 0px;
+  }
+  .subTitleIcon {
+    width: 48px;
+    height: 48px;
+    margin: 40px auto 16px;
+  }
+  h4 {
+    font-size: 20px;
+    font-family: Poppins-Bold, Poppins;
+    font-weight: bold;
+    color: #ffffff;
+    line-height: 24px;
+    margin: 0px auto 8px;
+  }
+  .lendButton {
+    display: inline-block;
+    width: 226px;
+    height: 66px;
+    user-select: none;
+    background: url(../../images/entry_background.svg);
+    font-size: 18px;
+    font-family: Agrandir-GrandHeavy, Agrandir;
+    font-weight: normal;
+    color: #ffffff;
+    line-height: 50px;
+    text-align: center;
+    margin-top: 48px;
+    cursor: pointer;
+  }
 }

@@ -1,9 +1,40 @@
 .header {
-  margin: 0px;
+  position: relative;
   height: 72px;
-  background-color: rgba(12, 11, 11, 0);
-  display: flex;
-  justify-content: space-between;
-  line-height: 72px;
-  border: 1px solid green;
+  .container {
+    margin: 0px auto;
+    max-width: 1440px;
+    height: 72px;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 40px;
+    & > img {
+      width: 126px;
+      height: 36px;
+    }
+    nav {
+      color: white;
+      span {
+        margin-left: 40px;
+        user-select: none;
+        a {
+          color: white;
+          text-decoration: none;
+        }
+      }
+      .headerEntry {
+        display: inline-block;
+        width: 126px;
+        height: 40px;
+        background: linear-gradient(270deg, #b721ff 0%, #21d4fd 100%);
+        border-radius: 20px;
+        font-weight: bold;
+        text-align: center;
+        line-height: 40px;
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+  }
 }

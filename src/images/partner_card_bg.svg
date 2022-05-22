@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1080px" height="336px" viewBox="0 0 1080 336" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>png_base_bg</title>
+    <defs>
+        <radialGradient cx="1.63331095%" cy="4.44324499%" fx="1.63331095%" fy="4.44324499%" r="108.887573%" gradientTransform="translate(0.016333,0.044432),scale(0.311111,1.000000),rotate(103.820969),translate(-0.016333,-0.044432)" id="radialGradient-1">
+            <stop stop-color="#42365F" offset="0%"></stop>
+            <stop stop-color="#0A0415" stop-opacity="0" offset="100%"></stop>
+        </radialGradient>
+        <radialGradient cx="105.331156%" cy="115.529161%" fx="105.331156%" fy="115.529161%" r="89.5894503%" gradientTransform="translate(1.053312,1.155292),scale(0.311111,1.000000),rotate(-132.992887),translate(-1.053312,-1.155292)" id="radialGradient-2">
+            <stop stop-color="#23D3FD" offset="0%"></stop>
+            <stop stop-color="#08020D" stop-opacity="0" offset="100%"></stop>
+        </radialGradient>
+        <path d="M40,0 L1040,0 C1062.09139,-4.05812251e-15 1080,17.90861 1080,40 L1080,296 C1080,318.09139 1062.09139,336 1040,336 L40,336 C17.90861,336 2.705415e-15,318.09139 0,296 L0,40 C-2.705415e-15,17.90861 17.90861,1.11635499e-14 40,0 Z" id="path-3"></path>
+    </defs>
+    <g id="首页-定稿" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home-定-new" transform="translate(-180.000000, -5894.000000)">
+            <g id="Part-6" transform="translate(0.000000, 5634.000000)">
+                <g id="png-base-bg" transform="translate(180.000000, 260.000000)">
+                    <mask id="mask-4" fill="white">
+                        <use xlink:href="#path-3"></use>
+                    </mask>
+                    <g id="base">
+                        <use fill-opacity="0.6" fill="#180F2A" xlink:href="#path-3"></use>
+                        <use fill="url(#radialGradient-1)" xlink:href="#path-3"></use>
+                        <use fill="url(#radialGradient-2)" xlink:href="#path-3"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

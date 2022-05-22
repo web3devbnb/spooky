@@ -1,19 +1,22 @@
 import * as React from "react"
 import { Link } from "gatsby"
-import * as styles from  "./index.module.scss"
+import Games from "../../images/banner_game.png"
+import * as styles from "./index.module.scss"
 
 const TopBanner = () => (
- <section>
-   <div>
-      <h2>Rent lands</h2>
-      <p>World’s first NFT renting protocol that is built to maximize utility of NFTs</p>
-      <div>Enter APP</div>
-   </div>
-   <div>
-     {/* game nft example */}
-     {/* animation style */}
-   </div>
- </section> 
+  <section className={styles.topBanner}>
+    <div>
+      <h2>
+        Rent <span>lands</span>
+      </h2>
+      <p>
+        World’s first NFT renting protocol that is built to maximize utility of
+        NFTs
+      </p>
+      <span className={styles.bannerEntry}>Enter APP</span>
+    </div>
+    <img src={Games} />
+  </section>
 )
 
 export default TopBanner

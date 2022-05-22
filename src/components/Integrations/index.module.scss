@@ -1,5 +1,100 @@
 .integration {
   height: 738px;
   overflow: hidden;
+  background: url(../../images/integration_bg.png);
+  background-position: 50% 50%;
+  background-size: 100%;
   background-color: rgb(18, 10, 34);
+
+  h2 {
+    font-size: 40px;
+    font-family: MonumentExtended-Black, MonumentExtended;
+    font-weight: 900;
+    color: #ffffff;
+    line-height: 52px;
+    letter-spacing: 1px;
+    display: inline-block;
+    position: relative;
+    margin: 114px auto 78px;
+    z-index: 10;
+
+    &::after {
+      display: block;
+      position: absolute;
+      content: "";
+      width: 268px;
+      height: 268px;
+      right: -45%;
+      top: -200%;
+      z-index: -1;
+      background: url(../../images/section_title_bg.png);
+    }
+  }
+}
+
+.gameCardBox {
+  display: flex;
+  justify-content: center;
+
+  .gameCard {
+    width: 332px;
+    height: 334px;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 32px;
+    backdrop-filter: blur(10px);
+    color: rgba($color: #fff, $alpha: 0.15);
+    position: relative;
+
+    & + .gameCard {
+      margin-left: 56px;
+    }
+
+    .gameCover {
+      height: 166px;
+      width: 100%;
+      background-color: #4b3d5e;
+      border: transparent;
+      border-radius: 32px 32px 0px 0px;
+    }
+
+    .gameUpcoming {
+      @extend .gameCover;
+      background: url(../../images/integration_upcoming.svg) no-repeat 50% 50%;
+      background-color: #4b3d5e;
+    }
+
+    .gameLogo {
+      position: absolute;
+      width: 72px;
+      height: 72px;
+      top: 129px;
+      left: 20px;
+      border-radius: 16px;
+      background-color: rgba(60, 56, 56, 0.691);
+    }
+
+    h3 {
+      font-size: 24px;
+      font-family: Poppins-Bold, Poppins;
+      font-weight: bold;
+      color: white;
+      line-height: 28px;
+      margin: 20px auto 16px;
+    }
+
+    .upcoming {
+      @extend h3;
+      color: #22d3fd;
+    }
+
+    p {
+      font-size: 16px;
+      font-family: Poppins-Regular, Poppins;
+      font-weight: 400;
+      color: #ffffff;
+      line-height: 24px;
+      opacity: 0.5;
+      margin: 0px 20px;
+    }
+  }
 }

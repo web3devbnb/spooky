@@ -2,4 +2,74 @@
   height: 910px;
   overflow: hidden;
   background: linear-gradient(180deg, #030305 0%, #150523 100%);
+
+  display: flex;
+  justify-content: center;
+
+  img {
+    width: 698px;
+    height: 760px;
+    margin-top: 90px;
+  }
+}
+
+.leftContent {
+  width: 580px;
+  text-align: left;
+  margin-top: 100px;
+
+  h2 {
+    font-size: 40px;
+    font-family: MonumentExtended-Black, MonumentExtended;
+    font-weight: 900;
+    color: #ffffff;
+    line-height: 48px;
+    margin: auto;
+    span {
+      color: #4cffdf;
+    }
+    margin-bottom: 12px;
+  }
+
+  p {
+    font-size: 20px;
+    font-family: Poppins-Regular, Poppins;
+    font-weight: 400;
+    color: #ffffff;
+    line-height: 28px;
+    opacity: 0.5;
+    margin-bottom: 0px;
+  }
+  .subTitleIcon {
+    width: 48px;
+    height: 48px;
+    margin: 40px auto 16px;
+  }
+  h4 {
+    font-size: 20px;
+    font-family: Poppins-Bold, Poppins;
+    font-weight: bold;
+    color: #ffffff;
+    line-height: 24px;
+    margin: 0px auto 8px;
+  }
+  .contactButton {
+    display: inline-block;
+    width: 227px;
+    height: 66px;
+    user-select: none;
+    background: url(../../images/entry_background.svg);
+    font-size: 18px;
+    font-family: Agrandir-GrandHeavy, Agrandir;
+    font-weight: normal;
+    color: #ffffff;
+    line-height: 50px;
+    text-align: center;
+    margin-top: 48px;
+    cursor: pointer;
+  }
+  .documentButton {
+    margin-left: 48px;
+    @extend .contactButton;
+  }
 }

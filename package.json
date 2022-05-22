@@ -5,7 +5,7 @@
   "version": "0.0.1",
   "author": "D-lyw <yuanwang@rentero.io>",
   "dependencies": {
-    "gatsby": "^4.14.0",
+    "gatsby": "^4.14.1",
     "gatsby-plugin-gatsby-cloud": "^4.14.0",
     "gatsby-plugin-image": "^2.14.0",
     "gatsby-plugin-manifest": "^4.14.0",

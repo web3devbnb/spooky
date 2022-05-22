@@ -1,0 +1,57 @@
+.topBanner {
+  height: 780px;
+  margin-top: -72px;
+  padding-top: 122px;
+  overflow: hidden;
+  background: url(../../images/topbar_cover.png);
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: center;
+
+  & > div {
+    text-align: left;
+  }
+  h2 {
+    font-size: 64px;
+    font-weight: 900;
+    margin-bottom: 12px;
+    color: #ffffff;
+    line-height: 84px;
+    letter-spacing: 2px;
+    font-family: MonumentExtended-Black, MonumentExtended;
+    span {
+      background: linear-gradient(270deg, #b721ff 0%, #21d4fd 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+  p {
+    font-size: 20px;
+    font-family: Poppins-Regular, Poppins;
+    font-weight: 400;
+    width: 540px;
+    color: #ffffff;
+    line-height: 30px;
+    opacity: 0.4;
+    margin-bottom: 48px;
+  }
+  img {
+    width: 572px;
+    height: 572px;
+  }
+}
+
+.bannerEntry {
+  display: inline-block;
+  width: 227px;
+  height: 67px;
+  user-select: none;
+  background: url(../../images/entry_background.svg);
+  font-size: 18px;
+  font-family: Agrandir-GrandHeavy, Agrandir;
+  font-weight: normal;
+  color: #ffffff;
+  line-height: 56px;
+  text-align: center;
+  cursor: pointer;
+}

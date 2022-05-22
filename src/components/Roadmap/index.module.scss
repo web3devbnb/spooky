@@ -4,4 +4,76 @@
   background-image: url(../../images/roadmap_cover.svg);
   background-position: 50% 50%;
   background-color: rgb(18, 10, 34);
+
+  h2 {
+    font-size: 40px;
+    font-family: MonumentExtended-Black, MonumentExtended;
+    font-weight: 900;
+    color: #ffffff;
+    line-height: 52px;
+    letter-spacing: 1px;
+    display: inline-block;
+    position: relative;
+    margin: 134px auto 90px;
+    z-index: 10;
+
+    &::after {
+      display: block;
+      position: absolute;
+      content: "";
+      width: 268px;
+      height: 268px;
+      right: -58%;
+      top: -200%;
+      z-index: -1;
+      background: url(../../images/section_title_bg.png);
+    }
+  }
+
+  .lineBox {
+    width: 1260px;
+    height: 248px;
+    background: url(../../images/roadmap_line.svg);
+    margin: auto;
+
+    display: flex;
+    justify-content: center;
+
+    div {
+      width: 300px;
+      text-align: left;
+      padding: 2em 2em;
+
+      span {
+        display: inline-block;
+        width: 100%;
+        font-size: 24px;
+        font-family: MonumentExtended-Regular, MonumentExtended;
+        font-weight: 400;
+        color: #ffffff;
+        line-height: 28px;
+        opacity: 0.25;
+        padding-bottom: 16px;
+        border-bottom: 1px solid rgba($color: white, $alpha: 0.2);
+      }
+
+      h4 {
+        font-size: 24px;
+        font-family: Poppins-Bold, Poppins;
+        font-weight: bold;
+        color: #00d8ff;
+        line-height: 28px;
+        margin: 23px auto 16px;
+      }
+
+      p {
+        font-size: 16px;
+        font-family: Poppins-Regular, Poppins;
+        font-weight: 400;
+        color: #ffffff;
+        line-height: 24px;
+        opacity: 0.5;
+      }
+    }
+  }
 }

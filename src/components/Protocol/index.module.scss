@@ -1,4 +1,77 @@
 .protocol {
   height: 682px;
-  border: 1px solid khaki;
+  overflow: hidden;
+  background: url(../../images/protocol_cover.png);
+  background-size: 100% 100%;
+  text-align: center;
+
+  h2 {
+    display: inline-block;
+    margin: 134px auto 80px;
+    font-size: 40px;
+    font-family: MonumentExtended-Black, MonumentExtended;
+    font-weight: 900;
+    color: #ffffff;
+    line-height: 52px;
+    letter-spacing: 1px;
+    position: relative;
+    z-index: 10;
+
+    &::after {
+      display: block;
+      position: absolute;
+      content: "";
+      width: 268px;
+      height: 268px;
+      right: -35%;
+      top: -200%;
+      z-index: -1;
+      background: url(../../images/section_title_bg.png);
+    }
+  }
+
+  .cardBox {
+    display: flex;
+    justify-content: center;
+
+    & > .cardItem {
+      width: 360px;
+      height: 256px;
+      background: #121120;
+      border-radius: 40px;
+      border: 1px solid;
+      border-image: radial-gradient(
+          circle,
+          rgba(255, 255, 255, 1),
+          rgba(255, 255, 255, 0)
+        )
+        1 1;
+      backdrop-filter: blur(5px);
+      & + .cardItem {
+        margin-left: 60px;
+      }
+
+      img {
+        width: 80px;
+        height: 80px;
+        display: block;
+        margin: 32px auto 20px;
+      }
+      h4 {
+        font-size: 24px;
+        font-family: Ubuntu-Medium, Ubuntu;
+        font-weight: 500;
+        color: #ffffff;
+        line-height: 28px;
+        margin: 0px auto 16px;
+      }
+      p {
+        font-size: 14px;
+        font-family: Ubuntu;
+        color: #ffffff;
+        line-height: 24px;
+        opacity: 0.5;
+      }
+    }
+  }
 }
