@@ -14,7 +14,7 @@
     font-weight: 900;
     color: #ffffff;
     line-height: 52px;
-    letter-spacing: 1px;
+    letter-spacing: 3px;
     position: relative;
     z-index: 10;
 
@@ -24,8 +24,8 @@
       content: "";
       width: 268px;
       height: 268px;
-      right: -35%;
-      top: -200%;
+      right: -19%;
+      top: -214%;
       z-index: -1;
       background: url(../../images/section_title_bg.png);
     }
@@ -60,7 +60,7 @@
       }
       h4 {
         font-size: 24px;
-        font-family: Ubuntu-Medium, Ubuntu;
+        font-family: Poppins-Regular, Poppins;
         font-weight: 500;
         color: #ffffff;
         line-height: 28px;
@@ -68,7 +68,7 @@
       }
       p {
         font-size: 14px;
-        font-family: Ubuntu;
+        font-family: Poppins-Regular, Poppins;
         color: #ffffff;
         line-height: 24px;
         opacity: 0.5;

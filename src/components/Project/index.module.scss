@@ -21,6 +21,7 @@
   width: 580px;
   text-align: left;
   margin-top: 100px;
+  margin-left: 80px;
 
   h2 {
     font-size: 40px;
@@ -29,6 +30,7 @@
     color: #ffffff;
     line-height: 48px;
     margin: auto;
+    letter-spacing: 2px;
     span {
       color: #4cffdf;
     }
@@ -36,12 +38,12 @@
   }
 
   p {
-    font-size: 20px;
+    font-size: 18px;
     font-family: Poppins-Regular, Poppins;
     font-weight: 400;
     color: #ffffff;
-    line-height: 28px;
-    opacity: 0.5;
+    line-height: 24px;
+    opacity: 0.4;
     margin-bottom: 0px;
   }
   .subTitleIcon {
@@ -67,7 +69,7 @@
     font-family: Agrandir-GrandHeavy, Agrandir;
     font-weight: normal;
     color: #ffffff;
-    line-height: 50px;
+    line-height: 58px;
     text-align: center;
     margin-top: 48px;
     cursor: pointer;

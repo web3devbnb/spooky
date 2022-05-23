@@ -1,5 +1,4 @@
 import * as React from "react"
-import { Link } from "gatsby"
 import * as styles from "./index.module.scss"
 import ProjectIllustration from "../../images/project_illustration.png"
 import IconCompatible from "../../images/project_compatible.png"
@@ -30,8 +29,12 @@ const Project = () => (
       <p>Faster to collaborate with numerous game guilds</p>
 
       <div>
-        <span className={styles.contactButton}>Contact us</span>
-        <span className={styles.documentButton}>Documentation</span>
+        <a href="https://discord.io/rentero" target="_blank">
+          <span className={styles.contactButton}>Contact us</span>
+        </a>
+        <a href="https://rentero.gitbook.io/lita/" target="_blank">
+          <span className={styles.documentButton}>Document</span>
+        </a>
       </div>
     </div>
     <img src={ProjectIllustration} />

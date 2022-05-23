@@ -15,16 +15,16 @@ const Footer = () => (
           <span>Rentero</span>
         </div>
         <div className={styles.communityLinks}>
-          <a href="" target="_blank">
+          <a href="https://discord.io/renteroguild" target="_blank">
             <img src={Discord} alt="Discord_link" />
           </a>
-          <a href="" target="_blank">
+          <a href="https://twitter.com/Rentero_Guild" target="_blank">
             <img src={Twitter} alt="Twitter_link" />
           </a>
-          <a href="" target="_blank">
+          {/* <a href="" target="_blank">
             <img src={Telegram} alt="Telegram_link" />
-          </a>
-          <a href="" target="_blank">
+          </a> */}
+          <a href="https://www.facebook.com/RenteroGuild/" target="_blank">
             <img src={Facebook} alt="Facebook_link" />
           </a>
         </div>

@@ -11,7 +11,7 @@
     font-weight: 900;
     color: #ffffff;
     line-height: 52px;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     display: inline-block;
     position: relative;
     margin: 114px auto 94px;
@@ -23,8 +23,8 @@
       content: "";
       width: 268px;
       height: 268px;
-      right: -75%;
-      top: -200%;
+      right: -42%;
+      top: -211%;
       z-index: -1;
       background: url(../../images/section_title_bg.png);
     }
@@ -34,7 +34,8 @@
 .partnerBox {
   width: 1080px;
   height: 336px;
-  background: url(../../images/partner_card_bg.svg);
+  background-image: url(../../images/partner_detail_cover.jpeg);
+  border-radius: 42px;
   margin: auto;
   overflow: hidden;
 
@@ -53,6 +54,7 @@
     font-weight: bold;
     color: #ebebeb;
     line-height: 32px;
+    margin: 16px auto 12px;
   }
 
   p {

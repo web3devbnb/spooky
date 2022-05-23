@@ -9,10 +9,14 @@ const Header = ({ siteTitle }) => (
       <img src={HeaderLogo} />
       <nav>
         <span>
-          <a href="" target="_blank">White Paper</a>
+          <a href="https://rentero.gitbook.io/lita/" target="_blank">
+            White Paper
+          </a>
         </span>
         <span>
-          <a href="" target="_blank">Community</a>
+          <a href="https://discord.io/renteroguild" target="_blank">
+            Community
+          </a>
         </span>
         <span className={styles.headerEntry}>Enter APP</span>
       </nav>

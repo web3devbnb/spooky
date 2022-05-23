@@ -25,13 +25,16 @@
       }
       .headerEntry {
         display: inline-block;
+        font-size: 12px;
         width: 126px;
         height: 40px;
+        font-family: Agrandir-GrandHeavy, Agrandir;
         background: linear-gradient(270deg, #b721ff 0%, #21d4fd 100%);
         border-radius: 20px;
         font-weight: bold;
         text-align: center;
         line-height: 40px;
+        font-weight: normal;
         &:hover {
           cursor: pointer;
         }
