@@ -10,23 +10,21 @@ import Lender from "../components/Lender"
 import Renter from "../components/Renter"
 import Project from "../components/Project"
 import Roadmap from "../components/Roadmap"
-import Integration from "../components/Integrations"
+// import Integration from "../components/Integrations"
 import Partner from "../components/Partner"
 import * as styles from "../components/index.module.css"
 
 const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
-    {/* <div className={styles.textCenter}> */}
     <TopBanner />
     <Protocol />
     <Lender />
     <Renter />
     <Project />
     <Roadmap />
-    <Integration />
+    {/* <Integration /> */}
     <Partner />
-    {/* </div> */}
   </Layout>
 )
 
