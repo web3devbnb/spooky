@@ -12,6 +12,7 @@ import Project from "../components/Project"
 import Roadmap from "../components/Roadmap"
 // import Integration from "../components/Integrations"
 import Partner from "../components/Partner"
+import Footer from "../components/Footer"
 import * as styles from "../components/index.module.css"
 
 const IndexPage = () => (
@@ -25,6 +26,7 @@ const IndexPage = () => (
     <Roadmap />
     {/* <Integration /> */}
     <Partner />
+    <Footer />
   </Layout>
 )
 
