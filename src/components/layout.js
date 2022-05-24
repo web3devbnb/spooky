@@ -16,9 +16,12 @@ const Layout = ({ children }) => {
   return (
     <>
       <Header />
-      <div style={{
-        textAlign: 'center'
-      }}>
+      <div
+        style={{
+          textAlign: "center",
+          minWidth: '1440px' 
+        }}
+      >
         <main>{children}</main>
       </div>
       <Footer />
