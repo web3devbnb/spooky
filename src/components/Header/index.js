@@ -6,7 +6,7 @@ import * as styles from "./index.module.scss"
 const Header = ({ siteTitle }) => (
   <header className={styles.header}>
     <div className={styles.container}>
-      <img src={HeaderLogo} />
+      <img src={HeaderLogo} alt="Header_Logo" />
       <nav>
         <span>
           <a href="https://rentero.gitbook.io/lita/" target="_blank">

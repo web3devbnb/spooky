@@ -10,7 +10,7 @@ const Protocol = () => (
     <h2>Rentero Protocol.</h2>
     <div className={styles.cardBox}>
       <div className={styles.cardItem}>
-        <img src={Compatability} />
+        <img src={Compatability} alt="Icon_Compatability" />
         <h4>Compatability</h4>
         <p>
           Compatible with ERC-721, ERC-1155, and most chains like ETH / Polygon
@@ -18,12 +18,12 @@ const Protocol = () => (
         </p>
       </div>
       <div className={styles.cardItem}>
-        <img src={Share} />
+        <img src={Share} alt="Icon_Share" />
         <h4>Share Mechanism</h4>
         <p>Original share mechanism for making long-term passive income.</p>
       </div>
       <div className={styles.cardItem}>
-        <img src={Collateral} />
+        <img src={Collateral} alt="Icon_Collateral" />
         <h4>Collateral Free</h4>
         <p>Very low cost for both renting and borrowing.</p>
       </div>

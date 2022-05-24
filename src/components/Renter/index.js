@@ -8,22 +8,26 @@ import IconGame from "../../images/renter_game.png"
 
 const Renter = () => (
   <section className={styles.renter}>
-    <img src={RenterIllustration} />
+    <img src={RenterIllustration} alt="Renter_Illustration" />
     <div className={styles.rightContent}>
       <h2>
         For <span>Renter.</span>
       </h2>
       <p>0 risk - No collateral for earning</p>
 
-      <img src={IconCost} className={styles.subTitleIcon} />
+      <img src={IconCost} alt="Icon_Cost" className={styles.subTitleIcon} />
       <h4>Low Cost</h4>
       <p>No collateral for earning</p>
 
-      <img src={IconCombination} className={styles.subTitleIcon} />
+      <img
+        src={IconCombination}
+        alt="Icon_Combination"
+        className={styles.subTitleIcon}
+      />
       <h4>Combination</h4>
       <p>Access services for optimazing your NFT combinations</p>
 
-      <img src={IconGame} className={styles.subTitleIcon} />
+      <img src={IconGame} alt="Icon_Game" className={styles.subTitleIcon} />
       <h4>Abundant</h4>
       <p>Support most gamefi projects across multi-chain</p>
 

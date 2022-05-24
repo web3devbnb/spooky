@@ -15,7 +15,7 @@ const TopBanner = () => (
       </p>
       <span className={styles.bannerEntry}>Enter APP</span>
     </div>
-    <img src={Games} />
+    <img src={Games} alt="Game_Example" />
   </section>
 )
 
