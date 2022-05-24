@@ -7,7 +7,7 @@ const Partner = () => (
   <section className={styles.partner}>
     <h2>Partner.</h2>
     <div className={styles.partnerBox}>
-      <img src={LitaLogo} />
+      <img src={LitaLogo} alt="Lita_Logo" />
       <h3>Lita</h3>
       <p>The biggest game companionship service platform in Southeast Asia</p>
       <div className={styles.partnerDetail}>

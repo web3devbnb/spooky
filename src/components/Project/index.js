@@ -13,18 +13,30 @@ const Project = () => (
       </h2>
       <p>Convenient services to use</p>
 
-      <img src={IconCompatible} className={styles.subTitleIcon} />
+      <img
+        src={IconCompatible}
+        alt="Icon_Compatible"
+        className={styles.subTitleIcon}
+      />
       <h4>Compatible</h4>
       <p>Support all kinds of standards - ERC-721, ERC-1155</p>
 
-      <img src={IconConvenience} className={styles.subTitleIcon} />
+      <img
+        src={IconConvenience}
+        alt="Icon_Convenience"
+        className={styles.subTitleIcon}
+      />
       <h4>Convenience</h4>
       <p>
         Fast installation for acquiring our services，easier to attract
         worldwide valuable gamefi investors
       </p>
 
-      <img src={IconEfficiency} className={styles.subTitleIcon} />
+      <img
+        src={IconEfficiency}
+        alt="Icon_Efficiency"
+        className={styles.subTitleIcon}
+      />
       <h4>Efficiency</h4>
       <p>Faster to collaborate with numerous game guilds</p>
 
@@ -37,7 +49,7 @@ const Project = () => (
         </a>
       </div>
     </div>
-    <img src={ProjectIllustration} />
+    <img src={ProjectIllustration} alt="Project_Illustration" />
   </section>
 )
 

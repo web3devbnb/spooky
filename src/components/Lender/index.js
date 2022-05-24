@@ -17,7 +17,7 @@ const Lender = () => (
         you can
       </p>
 
-      <img src={IconSafety} className={styles.subTitleIcon} />
+      <img src={IconSafety} alt="Icon_Safety" className={styles.subTitleIcon} />
       <h4>No default risk</h4>
       <p>
         The rented assets are wrapped expirable versions and thus they are not
@@ -25,17 +25,17 @@ const Lender = () => (
         Rentero smart contracts
       </p>
 
-      <img src={IconMoney} className={styles.subTitleIcon} />
+      <img src={IconMoney} alt="Icon_Money" className={styles.subTitleIcon} />
       <h4>Estimate</h4>
       <p>Fair Estimate of your NFT’s value</p>
 
-      <img src={IconGame} className={styles.subTitleIcon} />
+      <img src={IconGame} alt="Icon_Game" className={styles.subTitleIcon} />
       <h4>Abundant</h4>
       <p>Support most gamefi projects across multi-chain</p>
 
       <span className={styles.lendButton}>Lend NFT</span>
     </div>
-    <img src={LenderIllustration} />
+    <img src={LenderIllustration} alt="Lender_Illustration" />
   </section>
 )
 
