@@ -1,3 +1,5 @@
+@import "../css/typography.css";
+
 :root {
   --border-radius: 4px;
   --color-text: #333;
@@ -217,14 +219,4 @@ pre code:after,
 pre tt:before,
 pre tt:after {
   content: none;
-}
-
-@font-face {
-  font-family: "MonumentExtended";
-  src: url("../fonts/MonumentExtended-Regular.otf");
-}
-
-@font-face {
-  font-family: "Agrandir-GrandHeavy";
-  src: url("../fonts/Agrandir-GrandHeavy.otf");
 }
