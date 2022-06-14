@@ -13,7 +13,7 @@
     text-align: left;
   }
   h2 {
-    width: 600px;
+    width: 630px;
     font-size: 64px;
     font-weight: 900;
     margin-bottom: 12px;
@@ -26,7 +26,16 @@
       background: linear-gradient(270deg, #b721ff 0%, #21d4fd 100%);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
+      mask: radial-gradient(circle at 0 50%, #000, transparent 10%, transparent 0);
+      mask-size: 100%;
+      animation: scale 4s infinite;
     }
+    @keyframes scale {
+      50%,
+      100% {
+          mask-size: 2000%;
+      }
+  }
   }
   p {
     font-size: 20px;
@@ -41,7 +50,7 @@
   img {
     width: 572px;
     height: 572px;
-    margin-left: 50px;
+    margin-left: 20px;
   }
 }
 

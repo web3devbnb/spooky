@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 import Games from "../../images/banner_game.png"
 import * as styles from "./index.module.scss"
 
-const rentType = ["Lands", "Heros", "Shoes"]
+const rentType = ["Lands", "Heroes", "Shoes"]
 
 const TopBanner = () => {
   const [index, setIndex] = React.useState(0)
@@ -24,7 +24,9 @@ const TopBanner = () => {
     <section className={styles.topBanner}>
       <div>
         <h2>
-          Rent <span>{showType}</span>
+          Rent {index % 3 === 0 && <span>Lands</span>}
+          {index % 3 === 1 && <span>Heroes</span>}
+          {index % 3 === 2 && <span>Shoes</span>}
         </h2>
         <p>
           World’s first NFT rental protocol that is built to maximize utility of

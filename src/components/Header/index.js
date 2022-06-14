@@ -8,11 +8,11 @@ const Header = ({ siteTitle }) => (
     <div className={styles.container}>
       <img src={HeaderLogo} alt="Header_Logo" />
       <nav>
-        <span>
+        {/* <span>
           <a href="https://rentero.gitbook.io/lita/" target="_blank">
             White Paper
           </a>
-        </span>
+        </span> */}
         <span>
           <a href="https://discord.io/renteroguild" target="_blank">
             Community
