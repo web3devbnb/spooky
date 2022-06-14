@@ -24,7 +24,9 @@ const TopBanner = () => {
     <section className={styles.topBanner}>
       <div>
         <h2>
-          Rent <span>{showType}</span>
+          Rent {index % 3 === 0 && <span>Lands</span>}
+          {index % 3 === 1 && <span>Heroes</span>}
+          {index % 3 === 2 && <span>Shoes</span>}
         </h2>
         <p>
           World’s first NFT rental protocol that is built to maximize utility of
