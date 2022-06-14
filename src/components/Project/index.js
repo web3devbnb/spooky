@@ -44,9 +44,9 @@ const Project = () => (
         <a href="https://discord.io/rentero" target="_blank">
           <span className={styles.contactButton}>Contact us</span>
         </a>
-        <a href="https://rentero.gitbook.io/lita/" target="_blank">
+        {/* <a href="https://rentero.gitbook.io/lita/" target="_blank">
           <span className={styles.documentButton}>Document</span>
-        </a>
+        </a> */}
       </div>
     </div>
     <img src={ProjectIllustration} alt="Project_Illustration" />

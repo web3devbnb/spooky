@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 import Games from "../../images/banner_game.png"
 import * as styles from "./index.module.scss"
 
-const rentType = ["Lands", "Heros", "Shoes"]
+const rentType = ["Lands", "Heroes", "Shoes"]
 
 const TopBanner = () => {
   const [index, setIndex] = React.useState(0)
