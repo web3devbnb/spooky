@@ -3,7 +3,7 @@ import Logo from "../../images/header_logo.svg"
 import Discord from "../../images/discord_logo.svg"
 import Twitter from "../../images/twitter.svg"
 // import Telegram from "../../images/telegram.svg"
-import Facebook from "../../images/facebook_icon.svg"
+import Medium from "../../images/medium_logo.png"
 import * as styles from "./index.module.scss"
 
 const Footer = () => (
@@ -14,14 +14,14 @@ const Footer = () => (
           <img src={Logo} alt="logo" />
         </div>
         <div className={styles.communityLinks}>
-          <a href="https://discord.io/renteroguild" target="_blank">
+          <a href="https://discord.io/rentero" target="_blank">
             <img src={Discord} alt="Discord_link" />
           </a>
-          <a href="https://twitter.com/Rentero_Guild" target="_blank">
+          <a href="https://twitter.com/RenteroProtocol" target="_blank">
             <img src={Twitter} alt="Twitter_link" />
           </a>
-          <a href="https://www.facebook.com/RenteroGuild/" target="_blank">
-            <img src={Facebook} alt="Facebook_link" />
+          <a href="https://medium.com/@renteroprotocol" target="_blank">
+            <img src={Medium} alt="Facebook_link" />
           </a>
         </div>
       </div>
