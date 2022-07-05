@@ -14,11 +14,19 @@ const Header = ({ siteTitle }) => (
           </a>
         </span> */}
         <span>
-          <a href="https://discord.io/renteroguild" target="_blank">
+          <a
+            href="https://discord.com/invite/rZWZ3XhRJv"
+            target="_blank"
+            rel="noreferrer"
+          >
             Community
           </a>
         </span>
-        <span className={styles.headerEntry}>Enter APP</span>
+        <span className={styles.headerEntry}>
+          <a href="https://app.rentero.io" rel="noreferrer">
+            Enter APP
+          </a>
+        </span>
       </nav>
     </div>
   </header>

@@ -10,7 +10,7 @@ import Lender from "../components/Lender"
 import Renter from "../components/Renter"
 import Project from "../components/Project"
 import Roadmap from "../components/Roadmap"
-// import Integration from "../components/Integrations"
+import Integration from "../components/Integrations"
 import Partner from "../components/Partner"
 import Footer from "../components/Footer"
 import * as styles from "../components/index.module.css"
@@ -24,7 +24,7 @@ const IndexPage = () => (
     <Renter />
     <Project />
     <Roadmap />
-    {/* <Integration /> */}
+    <Integration />
     <Partner />
     <Footer />
   </Layout>
