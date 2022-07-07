@@ -1,9 +1,9 @@
 .integration {
-  height: 738px;
+  min-height: 738px;
   overflow: hidden;
   background: url(../../images/integration_bg.png);
   background-position: 50% 50%;
-  background-size: 100%;
+  background-size: 100% 100%;
   background-color: rgb(18, 10, 34);
 
   h2 {
@@ -24,37 +24,61 @@
       content: "";
       width: 268px;
       height: 268px;
-      right: -45%;
+      right: -30%;
       top: -200%;
       z-index: -1;
       background: url(../../images/section_title_bg.png);
     }
   }
 }
-
+@media screen and (min-width: 1200px) {
+  .gameCardBox {
+    width: 900px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .gameCardBox {
+    width: 580px;
+  }
+}
 .gameCardBox {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: auto;
+  border: 1px solid transparent;
+  position: relative;
+  margin-bottom: 80px;
+
+  a {
+    text-decoration: none;
+  }
 
   .gameCard {
-    width: 332px;
-    height: 334px;
+    width: 250px;
+    height: 250px;
     background: rgba(255, 255, 255, 0.15);
-    border-radius: 32px;
+    border-radius: 24px;
     backdrop-filter: blur(10px);
     color: rgba($color: #fff, $alpha: 0.15);
     position: relative;
+    margin-bottom: 30px;
 
     & + .gameCard {
-      margin-left: 56px;
+      // margin-left: 56px;
     }
 
     .gameCover {
-      height: 166px;
+      height: 125px;
       width: 100%;
       background-color: #4b3d5e;
       border: transparent;
-      border-radius: 32px 32px 0px 0px;
+      border-radius: 24px 24px 0px 0px;
+      overflow: hidden;
+      img {
+        height: 100%;
+        width: 100%;
+      }
     }
 
     .gameUpcoming {
@@ -65,21 +89,36 @@
 
     .gameLogo {
       position: absolute;
-      width: 72px;
-      height: 72px;
-      top: 129px;
-      left: 20px;
+      width: 54px;
+      height: 54px;
+      top: 90px;
+      left: 15px;
       border-radius: 16px;
-      background-color: rgba(60, 56, 56, 0.691);
+      background-color: transparent;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+
+      img {
+        height: 100%;
+        width: 100%;
+      }
     }
 
+    .gameInfo {
+      height: 125px;
+    }
     h3 {
-      font-size: 24px;
+      margin: 15px auto 12px;
+      font-size: 18px;
       font-family: Poppins-Bold, Poppins;
       font-weight: bold;
-      color: white;
-      line-height: 28px;
-      margin: 20px auto 16px;
+      color: #ffffff;
+      line-height: 21px;
+      a {
+        text-decoration: none;
+        color: white;
+      }
     }
 
     .upcoming {
@@ -88,13 +127,12 @@
     }
 
     p {
-      font-size: 16px;
+      margin: 0px 20px;
+      font-size: 12px;
       font-family: Poppins-Regular, Poppins;
       font-weight: 400;
-      color: #ffffff;
-      line-height: 24px;
-      opacity: 0.5;
-      margin: 0px 20px;
+      color: rgba($color: white, $alpha: 0.5);
+      line-height: 18px;
     }
   }
 }
