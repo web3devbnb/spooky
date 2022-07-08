@@ -32,7 +32,9 @@ const TopBanner = () => {
           World’s first NFT rental protocol that is built to maximize utility of
           NFTs
         </p>
-        <span className={styles.bannerEntry}>Enter APP</span>
+        <a href="https://app.rentero.io" rel="noreferrer">
+          <span className={styles.bannerEntry}>Enter APP</span>
+        </a>
       </div>
       <img src={Games} alt="Game_Example" />
     </section>
