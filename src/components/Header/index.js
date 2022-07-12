@@ -24,7 +24,7 @@ const Header = ({ siteTitle }) => (
         </span>
         <span className={styles.forGuild}>
           <a
-            href="https://app.rentero.io?forguild"
+            href="https://app.rentero.io/lend?forguild"
             target="_blank"
             rel="noreferrer"
           >
