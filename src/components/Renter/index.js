@@ -1,5 +1,4 @@
 import * as React from "react"
-import { Link } from "gatsby"
 import * as styles from "./index.module.scss"
 import RenterIllustration from "../../images/renter_illurstation.png"
 import IconCost from "../../images/renter_cost.png"
@@ -31,7 +30,9 @@ const Renter = () => (
       <h4>Abundant</h4>
       <p>Support most gamefi projects across multi-chain</p>
 
-      <span className={styles.marketButton}>Go to Market</span>
+      <a href="https://app.rentero.io" target="_blank" rel="noreferrer">
+        <span className={styles.marketButton}>Go to Market</span>
+      </a>
     </div>
   </section>
 )

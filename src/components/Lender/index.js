@@ -33,7 +33,9 @@ const Lender = () => (
       <h4>Abundant</h4>
       <p>Support most gamefi projects across multi-chain</p>
 
-      <span className={styles.lendButton}>Lend NFT</span>
+      <a href="https://app.rentero.io/lend" target="_blank" rel="noreferrer">
+        <span className={styles.lendButton}>Lend NFT</span>
+      </a>
     </div>
     <img src={LenderIllustration} alt="Lender_Illustration" />
   </section>

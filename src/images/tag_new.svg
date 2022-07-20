@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="20px" viewBox="0 0 40 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>tag_new</title>
+    <g id="首页-定稿" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home-定-new" transform="translate(-1226.000000, -8.000000)">
+            <g id="tag-new" transform="translate(1226.000000, 8.000000)">
+                <path d="M10,0 L30,0 C35.5228475,-1.01453063e-15 40,4.4771525 40,10 C40,15.5228475 35.5228475,20 30,20 L0,20 L0,20 L0,10 C-6.76353751e-16,4.4771525 4.4771525,1.01453063e-15 10,0 Z" id="矩形" fill="#AA3FF8"></path>
+                <text id="New" font-family="Poppins-SemiBold, Poppins" font-size="12" font-weight="500" line-spacing="20" letter-spacing="0.2" fill="#FFFFFF">
+                    <tspan x="6" y="13">New</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

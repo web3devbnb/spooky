@@ -7,7 +7,7 @@ const Header = ({ siteTitle }) => (
   <header className={styles.header}>
     <div className={styles.container}>
       <img src={HeaderLogo} alt="Header_Logo" />
-      <nav>
+      <nav className={styles.rightNav}>
         {/* <span>
           <a href="https://rentero.gitbook.io/lita/" target="_blank">
             White Paper
@@ -20,6 +20,15 @@ const Header = ({ siteTitle }) => (
             rel="noreferrer"
           >
             Community
+          </a>
+        </span>
+        <span className={styles.forGuild}>
+          <a
+            href="https://app.rentero.io/lend?forguild"
+            target="_blank"
+            rel="noreferrer"
+          >
+            For Guild
           </a>
         </span>
         <span className={styles.headerEntry}>
