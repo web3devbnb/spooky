@@ -43,11 +43,11 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-google-analytics`,
+      resolve: `gatsby-plugin-google-gtag`,
       options: {
-        trackingId: "G-6LY7BNS3B4",
-        head: false,
-        anonymize: true,
+        trackingIds: [
+          "G-6LY7BNS3B4", // Google Analytics / GA
+        ],
       },
     },
     "gatsby-plugin-robots-txt",

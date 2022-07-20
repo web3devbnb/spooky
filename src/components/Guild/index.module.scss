@@ -1,17 +1,17 @@
-.renter {
-  height: 882px;
+.guild {
+  height: 920px;
   overflow: hidden;
-  background-image: url(../../images/renter_cover.png);
-  background-size: cover;
-  background-color: #120e24;
+  background: url(../../images/guild_cover.png);
+  background-size: 100% 100%;
+  background-color: #130616;
 
   display: flex;
   justify-content: center;
 
   img {
     width: 700px;
-    height: 788px;
-    margin-top: 70px;
+    height: 700px;
+    margin-top: 110px;
     margin-right: 150px;
   }
 }
@@ -21,6 +21,7 @@
   text-align: left;
   margin-top: 100px;
   margin-left: -80px;
+
   h2 {
     font-size: 40px;
     font-family: MonumentExtended-Black, MonumentExtended;
@@ -30,7 +31,7 @@
     letter-spacing: 2px;
     margin: auto;
     span {
-      color: #21d4fd;
+      color: #FFFF56;
     }
     margin-bottom: 12px;
   }

@@ -9,6 +9,7 @@ import Protocol from "../components/Protocol"
 import Lender from "../components/Lender"
 import Renter from "../components/Renter"
 import Project from "../components/Project"
+import Guild from "../components/Guild"
 import Roadmap from "../components/Roadmap"
 import Integration from "../components/Integrations"
 import Partner from "../components/Partner"
@@ -23,6 +24,7 @@ const IndexPage = () => (
     <Lender />
     <Renter />
     <Project />
+    <Guild />
     <Roadmap />
     <Integration />
     <Partner />
