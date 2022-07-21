@@ -13,13 +13,13 @@ const Guild = () => {
         <h2>
           For <span>Guild.</span>
         </h2>
-        <p>Provide safe, intelligent and efficient rental services</p>
+        <p>Safe and profitable solutions</p>
 
         <img src={IconSafety} alt="Icon_Cost" className={styles.subTitleIcon} />
-        <h4>Asset security</h4>
+        <h4>Assets Security</h4>
         <p>
-          Separation of NFT ownership and use rights through contracts to fully
-          guarantee asset arrangements
+          Fully guarantee assets security and arrangement by separating NFTs’
+          owner and user rights through smart contracts.
         </p>
 
         <img
@@ -27,10 +27,10 @@ const Guild = () => {
           alt="Icon_Combination"
           className={styles.subTitleIcon}
         />
-        <h4>Maximize revenue</h4>
+        <h4>Maximize Revenue</h4>
         <p>
-          NFT asset allocation rules can be formulated to maximize the
-          allocation of scholar and improve the efficiency of union gold
+          The distribution of scholars and efficiency of guilds can be maximized
+          by formulating NFTs’ asset allocation rules.
         </p>
 
         <img
@@ -38,10 +38,11 @@ const Guild = () => {
           alt="Icon_Game"
           className={styles.subTitleIcon}
         />
-        <h4>Efficient management</h4>
+        <h4>Efficient Management</h4>
         <p>
-          Provide complete dashboard indicators, automatic monitoring and
-          settlement of revenue sharing
+          Various ways to help guilds with operating and managing their NFTs’
+          assets. Provide functions including complete dashboard indicators,
+          automatic monitoring and revenue sharing system.
         </p>
 
         <a href="https://app.rentero.io" target="_blank" rel="noreferrer">

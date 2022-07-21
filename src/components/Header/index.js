@@ -15,11 +15,11 @@ const Header = ({ siteTitle }) => (
         </span> */}
         <span>
           <a
-            href="https://discord.com/invite/rZWZ3XhRJv"
+            href="https://docs.rentero.io/concepts/overview"
             target="_blank"
             rel="noreferrer"
           >
-            Community
+            Document 
           </a>
         </span>
         <span className={styles.forGuild}>

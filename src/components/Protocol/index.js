@@ -11,21 +11,27 @@ const Protocol = () => (
     <div className={styles.cardBox}>
       <div className={styles.cardItem}>
         <img src={Compatability} alt="Icon_Compatability" />
-        <h4>Compatability</h4>
+        <h4>Compatibility</h4>
         <p>
           Compatible with ERC-721, ERC-1155, and most chains like ETH / Polygon
-          / BSC and etc.
+          / BSC, etc.
         </p>
       </div>
       <div className={styles.cardItem}>
         <img src={Share} alt="Icon_Share" />
-        <h4>Share Mechanism</h4>
-        <p>Original share mechanism for making long-term passive income.</p>
+        <h4>0 Collateral</h4>
+        <p>
+          No risk such as over collateralization. Extremely low cost for both
+          renting and lending.
+        </p>
       </div>
       <div className={styles.cardItem}>
         <img src={Collateral} alt="Icon_Collateral" />
-        <h4>Collateral Free</h4>
-        <p>Very low cost for both renting and borrowing.</p>
+        <h4>Flexible Payment Mode</h4>
+        <p>
+          Profit-sharing mode, Rental fee mode and Trial mode are always
+          available for users to choose.
+        </p>
       </div>
     </div>
   </section>

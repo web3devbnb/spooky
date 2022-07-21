@@ -29,7 +29,7 @@ const TopBanner = () => {
           {index % 3 === 2 && <span>Shoes</span>}
         </h2>
         <p>
-          World’s first NFT rental protocol that is built to maximize utility of
+          An open-source NFTs rental protocol built to maximize the utility of
           NFTs
         </p>
         <a href="https://app.rentero.io" rel="noreferrer">

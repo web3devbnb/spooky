@@ -11,25 +11,28 @@ const Project = () => (
       <h2>
         For <span>Project.</span>
       </h2>
-      <p>Convenient services to use</p>
+      <p>More efficient for growth</p>
 
       <img
         src={IconCompatible}
         alt="Icon_Compatible"
         className={styles.subTitleIcon}
       />
-      <h4>Compatible</h4>
-      <p>Support all kinds of standards - ERC-721, ERC-1155</p>
+      <h4>Launch Rental Marketplace to Elevate NFTs’ Utility</h4>
+      <p>
+        Launch or even create NFTs freely on Rentero Marketplace to increase the
+        intrinsic value and utility of NFTs.
+      </p>
 
       <img
         src={IconConvenience}
         alt="Icon_Convenience"
         className={styles.subTitleIcon}
       />
-      <h4>Convenience</h4>
+      <h4>Enable Guilds to Acquire Users at Scale</h4>
       <p>
-        Fast installation for acquiring our services，easier to attract
-        worldwide valuable gamefi investors
+        Guilds can access more potential users at a significant scale.
+        Beneficial to either project start-up or growth.
       </p>
 
       <img
@@ -37,8 +40,12 @@ const Project = () => (
         alt="Icon_Efficiency"
         className={styles.subTitleIcon}
       />
-      <h4>Efficiency</h4>
-      <p>Faster to collaborate with numerous game guilds</p>
+      <h4>Trial Mode to Optimize Conversion Funnel</h4>
+      <p>
+        Trial modes are offered to users therefore they can experience projects
+        before actually buying NFTs. More potential investors will be brought to
+        projects which interest them.
+      </p>
 
       <div>
         <a href="https://discord.io/rentero" target="_blank">

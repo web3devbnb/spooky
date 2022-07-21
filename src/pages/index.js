@@ -18,7 +18,10 @@ import * as styles from "../components/index.module.css"
 
 const IndexPage = () => (
   <Layout>
-    <Seo title="Home" />
+    <Seo
+      title="Rentero Protocol"
+      description="An open-source NFTs rental protocol built to maximize the utility of NFTs"
+    />
     <TopBanner />
     <Protocol />
     <Lender />
