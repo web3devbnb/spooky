@@ -12,23 +12,31 @@ const Renter = () => (
       <h2>
         For <span>Renter.</span>
       </h2>
-      <p>0 risk - No collateral for earning</p>
+      <p>More accessible and practical</p>
 
       <img src={IconCost} alt="Icon_Cost" className={styles.subTitleIcon} />
-      <h4>Low Cost</h4>
-      <p>No collateral for earning</p>
+      <h4>No Collateral</h4>
+      <p>
+        No need to deposit any collateral like traditional rental protocols.
+      </p>
 
       <img
         src={IconCombination}
         alt="Icon_Combination"
         className={styles.subTitleIcon}
       />
-      <h4>Combination</h4>
-      <p>Access services for optimazing your NFT combinations</p>
+      <h4>Access to Varied Utility NFTs</h4>
+      <p>
+        Strong accessibility creates a possibility to rent different kinds of
+        utility NFTs, including gaming, metaverse and other utilities.
+      </p>
 
       <img src={IconGame} alt="Icon_Game" className={styles.subTitleIcon} />
-      <h4>Abundant</h4>
-      <p>Support most gamefi projects across multi-chain</p>
+      <h4>Sublet to Others</h4>
+      <p>
+        Very flexible rental system. The NFTs you rented can be subleased to
+        others and lower the renting cost.
+      </p>
 
       <a href="https://app.rentero.io" target="_blank" rel="noreferrer">
         <span className={styles.marketButton}>Go to Market</span>

@@ -14,7 +14,7 @@ const Footer = () => (
           <img src={Logo} alt="logo" />
         </div>
         <div className={styles.communityLinks}>
-          <a href="https://discord.io/rentero" target="_blank">
+          <a href="https://discord.com/invite/rZWZ3XhRJv" target="_blank">
             <img src={Discord} alt="Discord_link" />
           </a>
           <a href="https://twitter.com/RenteroProtocol" target="_blank">

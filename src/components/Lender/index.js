@@ -12,26 +12,26 @@ const Lender = () => (
       <h2>
         For <span>Lenders.</span>
       </h2>
-      <p>
-        Allow you to make the best use of your assets, earn as many earnings as
-        you can
-      </p>
+      <p>Unlock the deep liquidity of your utility NFTs</p>
 
       <img src={IconSafety} alt="Icon_Safety" className={styles.subTitleIcon} />
-      <h4>No default risk</h4>
+      <h4>Safe</h4>
       <p>
         The rented assets are wrapped expirable versions and thus they are not
         spendable. The originals, be it fungible or non-fungible, remain in
-        Rentero smart contracts
+        Rentero smart contracts.
       </p>
 
       <img src={IconMoney} alt="Icon_Money" className={styles.subTitleIcon} />
-      <h4>Estimate</h4>
-      <p>Fair Estimate of your NFT’s value</p>
+      <h4>Passive Income</h4>
+      <p>Passive income can be earned just by lending their NFTs.</p>
 
       <img src={IconGame} alt="Icon_Game" className={styles.subTitleIcon} />
-      <h4>Abundant</h4>
-      <p>Support most gamefi projects across multi-chain</p>
+      <h4>Free to List </h4>
+      <p>
+        Easy and convenient for lenders to list their NFTs with 0 cost on
+        Rentero marketplace.
+      </p>
 
       <a href="https://app.rentero.io/lend" target="_blank" rel="noreferrer">
         <span className={styles.lendButton}>Lend NFT</span>

@@ -8,26 +8,23 @@ const Roadmap = () => (
     <div className={styles.lineBox}>
       <div>
         <span>1</span>
-        <h4>May 2022</h4>
-        <p>
-          Game NFT renting platform & NFT based blockchain game achievement
-          system
-        </p>
+        <h4>August 2022</h4>
+        <p>NFTs Rental Marketplace Publish</p>
       </div>
       <div>
         <span>2</span>
-        <h4>December 2022</h4>
-        <p>Incentive layer forblockchain games</p>
+        <h4>October 2022</h4>
+        <p>NFTs Rental Protocol Land on Chain: Solana</p>
       </div>
       <div>
         <span>3</span>
-        <h4>June 2023</h4>
-        <p>Support different blockchains and Layer 2 solutions</p>
+        <h4>December 2022</h4>
+        <p>Token Launch</p>
       </div>
       <div>
         <span>4</span>
-        <h4>2024</h4>
-        <p>The Ultimate Destination for Web 3 Games</p>
+        <h4>March 2023</h4>
+        <p>Enable Governance and Staking Function</p>
       </div>
     </div>
   </section>
