@@ -10,7 +10,7 @@ const Renter = () => (
     <img src={RenterIllustration} alt="Renter_Illustration" />
     <div className={styles.rightContent}>
       <h2>
-        For <span>Renter.</span>
+        For <span>Renters.</span>
       </h2>
       <p>More accessible and practical</p>
 

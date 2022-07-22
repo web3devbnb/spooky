@@ -11,7 +11,7 @@ const Guild = () => {
       <img src={GuildIllustration} alt="Guild_Illustration" />
       <div className={styles.rightContent}>
         <h2>
-          For <span>Guild.</span>
+          For <span>Guilds.</span>
         </h2>
         <p>Safe and profitable solutions</p>
 

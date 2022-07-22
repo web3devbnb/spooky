@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Rentero | NFT Rental Protocol `,
+    title: `Rentero | NFTs Rental Protocol `,
     description: `An open-source NFTs rental protocol built to maximize the utility of NFTs`,
     siteUrl: `https://rentero.io/`,
   },
