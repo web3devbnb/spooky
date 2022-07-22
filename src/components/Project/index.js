@@ -9,7 +9,7 @@ const Project = () => (
   <section className={styles.project}>
     <div className={styles.leftContent}>
       <h2>
-        For <span>Project.</span>
+        For <span>Projects.</span>
       </h2>
       <p>More efficient for growth</p>
 
