@@ -17,16 +17,16 @@ const Footer = () => (
           <a href="https://discord.com/invite/rZWZ3XhRJv" target="_blank">
             <img src={Discord} alt="Discord_link" />
           </a>
-          <a href="https://twitter.com/RenteroProtocol" target="_blank">
+          <a href="https://twitter.com/SpookiverseProtocol" target="_blank">
             <img src={Twitter} alt="Twitter_link" />
           </a>
-          <a href="https://medium.com/@renteroprotocol" target="_blank">
+          <a href="https://medium.com/@Spookiverseprotocol" target="_blank">
             <img src={Medium} alt="Facebook_link" />
           </a>
         </div>
       </div>
       <p className={styles.copyRight}>
-        Copyright 2021-2022 Rentero.io All rights reserved
+        Copyright 2021-2022 Spookiverse.io All rights reserved
       </p>
     </div>
   </section>

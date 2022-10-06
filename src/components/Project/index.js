@@ -20,7 +20,7 @@ const Project = () => (
       />
       <h4>Launch Rental Marketplace to Elevate NFTs’ Utility</h4>
       <p>
-        Launch or even create NFTs freely on Rentero Marketplace to increase the
+        Launch or even create NFTs freely on Spookiverse Marketplace to increase the
         intrinsic value and utility of NFTs.
       </p>
 
@@ -48,10 +48,10 @@ const Project = () => (
       </p>
 
       <div>
-        <a href="https://discord.io/rentero" target="_blank">
+        <a href="https://discord.io/Spookiverse" target="_blank">
           <span className={styles.contactButton}>Contact us</span>
         </a>
-        {/* <a href="https://rentero.gitbook.io/lita/" target="_blank">
+        {/* <a href="https://Spookiverse.gitbook.io/lita/" target="_blank">
           <span className={styles.documentButton}>Document</span>
         </a> */}
       </div>

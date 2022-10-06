@@ -7,7 +7,7 @@ import * as styles from "./index.module.scss"
 
 const Protocol = () => (
   <section className={styles.protocol}>
-    <h2>Rentero Protocol.</h2>
+    <h2>Spookiverse Protocol.</h2>
     <div className={styles.cardBox}>
       <div className={styles.cardItem}>
         <img src={Compatability} alt="Icon_Compatability" />

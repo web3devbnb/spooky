@@ -38,7 +38,7 @@ const Renter = () => (
         others and lower the renting cost.
       </p>
 
-      <a href="https://app.rentero.io" target="_blank" rel="noreferrer">
+      <a href="https://app.Spookiverse.io" target="_blank" rel="noreferrer">
         <span className={styles.marketButton}>Go to Market</span>
       </a>
     </div>

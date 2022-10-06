@@ -9,13 +9,13 @@ const Header = ({ siteTitle }) => (
       <img src={HeaderLogo} alt="Header_Logo" />
       <nav className={styles.rightNav}>
         {/* <span>
-          <a href="https://rentero.gitbook.io/lita/" target="_blank">
+          <a href="https://Spookiverse.gitbook.io/lita/" target="_blank">
             White Paper
           </a>
         </span> */}
         <span>
           <a
-            href="https://docs.rentero.io/concepts/overview"
+            href="https://docs.Spookiverse.io/concepts/overview"
             target="_blank"
             rel="noreferrer"
           >
@@ -24,7 +24,7 @@ const Header = ({ siteTitle }) => (
         </span>
         <span className={styles.forGuild}>
           <a
-            href="https://app.rentero.io/lend?forguild"
+            href="https://app.Spookiverse.io/lend?forguild"
             target="_blank"
             rel="noreferrer"
           >
@@ -32,7 +32,7 @@ const Header = ({ siteTitle }) => (
           </a>
         </span>
         <span className={styles.headerEntry}>
-          <a href="https://app.rentero.io" rel="noreferrer">
+          <a href="https://app.Spookiverse.io" rel="noreferrer">
             Enter APP
           </a>
         </span>

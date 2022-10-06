@@ -19,7 +19,7 @@ const Lender = () => (
       <p>
         The rented assets are wrapped expirable versions and thus they are not
         spendable. The originals, be it fungible or non-fungible, remain in
-        Rentero smart contracts.
+        Spookiverse smart contracts.
       </p>
 
       <img src={IconMoney} alt="Icon_Money" className={styles.subTitleIcon} />
@@ -30,10 +30,10 @@ const Lender = () => (
       <h4>Free to List </h4>
       <p>
         Easy and convenient for lenders to list their NFTs with 0 cost on
-        Rentero marketplace.
+        Spookiverse marketplace.
       </p>
 
-      <a href="https://app.rentero.io/lend" target="_blank" rel="noreferrer">
+      <a href="https://app.Spookiverse.io/lend" target="_blank" rel="noreferrer">
         <span className={styles.lendButton}>Lend NFT</span>
       </a>
     </div>

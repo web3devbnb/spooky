@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Rentero | NFTs Rental Protocol `,
+    title: `Spookiverse | NFTs Rental Protocol `,
     description: `An open-source NFTs rental protocol built to maximize the utility of NFTs`,
-    siteUrl: `https://rentero.io/`,
+    siteUrl: `https://Spookiverse.io/`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -19,8 +19,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Rentero Protocol`,
-        short_name: `Rentero`,
+        name: `Spookiverse Protocol`,
+        short_name: `Spookiverse`,
         start_url: `/`,
         background_color: `#663399`,
         // This will impact how browsers show your PWA/website

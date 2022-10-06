@@ -32,7 +32,7 @@ const TopBanner = () => {
           An open-source NFTs rental protocol built to maximize the utility of
           NFTs
         </p>
-        <a href="https://app.rentero.io" rel="noreferrer">
+        <a href="https://app.Spookiverse.io" rel="noreferrer">
           <span className={styles.bannerEntry}>Enter APP</span>
         </a>
       </div>
